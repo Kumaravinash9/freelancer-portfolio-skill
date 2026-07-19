@@ -13,12 +13,26 @@ It supports **individual** portfolios and small **team/collective** showcases, a
 - **Two build formats** — a zero-dependency single-file `index.html`, or a full **React + Vite + Tailwind v4 + Framer Motion** project.
 - **Proficiency patterns** — sources real content from resumes / GitHub repos, light/dark theming, member photos, company logos, anti-cliché copywriting.
 
+## Companion skill (recommended)
+
+This skill delegates the **visual direction** to Anthropic's [`frontend-design`](https://github.com/anthropics/skills) skill for a distinctive, non-templated look. It works without it, but for best results install `frontend-design` too:
+
+```bash
+npx skills add https://github.com/anthropics/skills --skill frontend-design
+```
+
+The framework build also expects a working **Node.js** toolchain (for the React + Vite + Tailwind option). The single-file HTML build needs nothing extra.
+
 ## Install
 
 ### Option A — with the `skills` CLI (recommended)
 
 ```bash
+# the portfolio skill
 npx skills add https://github.com/Kumaravinash9/freelancer-portfolio-skill --skill freelancer-portfolio
+
+# the recommended companion (visual design)
+npx skills add https://github.com/anthropics/skills --skill frontend-design
 ```
 
 ### Option B — manual (Claude Code)
