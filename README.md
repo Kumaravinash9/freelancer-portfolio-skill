@@ -39,6 +39,12 @@ cp -R /tmp/fps/freelancer-portfolio .claude/skills/freelancer-portfolio
 - Type `/freelancer-portfolio` in Claude Code, **or**
 - Just ask: *"build me an AI/ML freelancer portfolio"* / *"make a portfolio for my freelance team"* — it triggers automatically.
 
+## Example built with this skill
+
+**InnoAI Labs** — a two-person AI/backend team portfolio built in team mode (React + Vite + Tailwind + Framer Motion): animated hero schematic, "meet the team" cards, credited case studies, and a company logo strip.
+
+- Source: https://github.com/Kumaravinash9/portfolio-web
+
 ## Structure
 
 ```
