@@ -1,5 +1,12 @@
 # freelancer-portfolio — Claude skill
 
+[![Add via skills.sh](https://img.shields.io/badge/skills.sh-Install-000?logo=vercel&logoColor=white)](https://skills.sh/Kumaravinash9/freelancer-portfolio-skill)
+[![Install with npx](https://img.shields.io/badge/npx%20skills%20add-freelancer--portfolio-2456ff)](https://github.com/Kumaravinash9/freelancer-portfolio-skill)
+
+```bash
+npx skills add Kumaravinash9/freelancer-portfolio-skill --skill freelancer-portfolio
+```
+
 A [Claude](https://claude.com/claude-code) skill that builds a polished **freelancer or team/agency portfolio** — tailored to the profile, grounded in real content, and designed to actually convince clients.
 
 It supports **individual** portfolios and small **team/collective** showcases, across 15 popular freelance profiles, and pairs with Anthropic's `frontend-design` skill for a distinctive (non-templated) look.
